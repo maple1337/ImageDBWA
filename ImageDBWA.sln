@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A891575A-923C-453E-AB59-FC1E1B07DB61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDBWA.Core", "src\ImageDBWA.Core\ImageDBWA.Core.csproj", "{5D233AD4-5C9D-431B-A74A-E25F28EC1625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDBWA.CLI", "src\ImageDBWA.CLI\ImageDBWA.CLI.csproj", "{B0620BAB-3937-4A1E-A422-66A073D4344E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CCEFFB69-81DA-4FDA-A96F-345B752E4C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDBWA.Tests", "tests\ImageDBWA.Tests\ImageDBWA.Tests.csproj", "{4F61FF32-F7B3-4300-B62E-40C15777E5CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D233AD4-5C9D-431B-A74A-E25F28EC1625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D233AD4-5C9D-431B-A74A-E25F28EC1625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D233AD4-5C9D-431B-A74A-E25F28EC1625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D233AD4-5C9D-431B-A74A-E25F28EC1625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0620BAB-3937-4A1E-A422-66A073D4344E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0620BAB-3937-4A1E-A422-66A073D4344E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0620BAB-3937-4A1E-A422-66A073D4344E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0620BAB-3937-4A1E-A422-66A073D4344E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F61FF32-F7B3-4300-B62E-40C15777E5CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F61FF32-F7B3-4300-B62E-40C15777E5CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F61FF32-F7B3-4300-B62E-40C15777E5CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F61FF32-F7B3-4300-B62E-40C15777E5CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D233AD4-5C9D-431B-A74A-E25F28EC1625} = {A891575A-923C-453E-AB59-FC1E1B07DB61}
+		{B0620BAB-3937-4A1E-A422-66A073D4344E} = {A891575A-923C-453E-AB59-FC1E1B07DB61}
+		{4F61FF32-F7B3-4300-B62E-40C15777E5CC} = {CCEFFB69-81DA-4FDA-A96F-345B752E4C2B}
+	EndGlobalSection
+EndGlobal
